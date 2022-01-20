@@ -36,4 +36,5 @@ int main(){
         cout<<"maximum element is"<<ans1<<endl;
         cout<<"minimum element is"<<getMin(arr,size)<<endl;3
     }
+    return 0;
 }
