@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std ;
 
+
 int getLength(char name[]){
     int count = 0;
     for(int i=0; name[i]!='\0';i++){
@@ -17,8 +18,10 @@ int main(){
 
     cout<<"Your name is ";
     cout<<name<<endl;
+    int len =getLength(name);
 
-    cout<<"Length :"<< getLength(name)<<endl;
+    cout<<"Length :"<< len<<endl;
+   
 
     return 0;
 }
