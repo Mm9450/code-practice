@@ -7,6 +7,7 @@ int getMax(int a[],int n){
         if(a[i]>max)
         max=a[i];
     }
+   
     return max;
 }
 int main(){
@@ -16,9 +17,11 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i]>>brr[i]>>crr[i];
           getMax(arr,n);
+   
+    }
+    getMax(arr,n);
     getMax(brr,n);
     getMax(crr,n);
     cout<<getMax(arr,n)<<getMax(brr,n)<<getMax(crr,n);
-    }
-   return 0;
+   
 }
