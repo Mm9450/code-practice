@@ -12,7 +12,9 @@ int main()
                 if (str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u' || str[i]=='A' || str[i]=='E' || str[i]=='I'
 || str[i]=='O' || str[i]=='U')
                 {
-                        str[i]=' ';
+                    for(int j=i;j<100;j++){
+                        str[j]=str[j+1];
+                    }
                 }
         }
         cout<<"\n String After Deleting Vowels : "<<str;
