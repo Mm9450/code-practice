@@ -12,5 +12,5 @@ int main(){
     cin>>n;
 
     int answer = ap(n);
-    cout<<"answer is"<<answer<<endl;
+    cout<<"answer is "<<answer<<endl;
 }
